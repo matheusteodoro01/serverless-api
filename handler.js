@@ -12,7 +12,7 @@ app.get("/users/:userId", async (req, res) => {
   const params = {
     TableName: USERS_TABLE,
     Key: {
-      userId: req.params.userId,
+      userId: req.params.userId
     },
   };
 
